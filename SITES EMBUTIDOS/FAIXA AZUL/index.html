@@ -107,6 +107,8 @@ div.scrollmenu a:hover {
 }
 </style></head><body><div class="scrollmenu">
 
+<button class="openbtn" onclick="openNav()"> ☰ SOBRE ☰ </button>  
+
   <a href="index.html">INÍCIO</a>
   <a href="index_arquivos/AUDIOS/1 - Copia.html">AUDIOS</a>
   <a href="index_arquivos/DOCUMENTOS/1 - Copia.html">DOCUMENTOS</a>
@@ -254,33 +256,26 @@ document.write('  '+todaysDate);
 <!---------------------FAIXA AZUL-- _blank --- _self -----
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
-<a href="index_arquivos/FILMES/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>FIMES</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
-<a href="index_arquivos/MÚSICAS/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>MÚSICAS</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
-<a href="index_arquivos/NOME⚫/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>NOME⚫</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
-<a href="index_arquivos/NOME⚫/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>NOME⚫</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
-<a href="index_arquivos/NOME⚫/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>NOME⚫</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
-<a href="index_arquivos/NOME⚫/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>NOME⚫</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
 
 
 
-<a href="index_arquivos/NOME⚫/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>NOME⚫</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
-<a href="index_arquivos/NOME⚫/1 - Copia.html" target="_self">
-<div height="100" style="background-color: blue;line-height: 50px;text-align: center;"><x style="color: white"><FONT SIZE=+2>NOME⚫</FONT></x></div></a><BR/>
-<!---------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -290,43 +285,75 @@ document.write('  '+todaysDate);
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------->
-<!--------------------- _blank --- _self -----
 <!---------------------------------------------------------------------------------->
-<!---------------------------------------
-<p><li>
-BUSCA
-<BR/><a href="index_arquivos/
-BUSCA
-.zip" target="_self">Downloads</a>  -  <a href="index_arquivos/0-IMAGENS/
-Captura de tela 2024-11-01 035041
-.png" target="_blank">Online</a> | </li></p>
-<!-------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 14px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color:BLUE;
+}
+</style></head><body><div id="mySidepanel" class="sidepanel">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+  <a href="index_arquivos/SOBRE O SITE/1 - Copia.html">SOBRE O SITE</a>
+  <a href="index_arquivos/SOBRE MIM/1 - Copia.html">SOBRE MIM</a>
+  <a href="index_arquivos/AVISOS/1 - Copia.html">AVISOS</a>
+  <a href="index_arquivos/PASTA 1/1 - Copia.html">Contact</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<BR/><BR/><BR/></div><script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script></body></html> 
 <!---------------------------------------------------------------------------------->
 <!--##############################################################################-->
 <!--##############################################################################-->
